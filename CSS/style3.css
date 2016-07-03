@@ -1,0 +1,111 @@
+#contenidos{
+	width:1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	/*background: gray;*/
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	margin-left: 10px;
+	font-size: 45px;
+	text-align: left;
+	color: Goldenrod;
+}
+
+h2{
+	font-family: 'Lora', serif;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: left;
+	color: Beige;
+}
+
+
+
+header{
+	width: 1000px;
+	height: 120px;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: red;
+	border-radius: 10px;
+}
+
+
+ul{
+	margin: 15px;
+	padding-top:3px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: ;
+	margin: 3px;
+	color: Royalblue;
+}
+
+b{
+	margin-left: 150px;
+	font: Arial;
+	color: Goldenrod;
+}
+
+section{
+	background: ;
+	width: 1000px;
+	height: 600px;
+	float: left;
+}
+
+
+footer{
+	width: 1000px;
+	height: 20px;
+	float: left;
+	margin-top: 150px;
+	color: Beige;
+	background: red;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+img{
+	margin-left: 150px;
+	border-radius: 10px;}
+
+p{
+	width: 1000px;
+	height: 120px;
+	background: Moccasin;
+	border-radius: 10px;
+	color: Dimgray;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px}
+.ancho_menu_paginas{width: 970px}
+
+.menu:link{padding: 32px; color: black; text-decoration: none;}
+.menu:visited{padding: 15px; color: black; text-decoration: none;}
+.menu:active{padding: 15px; color: black; text-decoration: none;}
+
+
